@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 @Controller
 public class AppController {
-	@Autowired
+	@Autowired hpi
 	private UserRepository repo;
 	    @GetMapping("")
 	    public String viewHomePage() {
